@@ -3,7 +3,17 @@ module.exports = {
     mode: 'jit',
     content: ['index.html'],
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                montserrat: ['Montserrat'],
+            },
+            colors: {
+                primary: '#A9A9A9',
+                stat: '#E5E5E5',
+                secondary: '#BDBDBD',
+                footer: '#B9BDCF',
+            },
+        },
     },
     plugins: [],
 };
