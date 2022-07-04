@@ -18,5 +18,84 @@
         <link rel="stylesheet" href="/public/styles.css" />
         <title>My Gallery</title>
     </head>
-    <body></body>
+    <body class="bg-white text-black font-montserrat">
+        <!-- Body wrapper -->
+        <div class="w-11/12 m-auto">
+            <!-- User information -->
+            <section class="flex flex-col items-center mt-8">
+                <!-- Profile picture and user name-->
+                <div class="flex flex-col items-center">
+                    <img
+                        src="/public/img/profilePhoto.png"
+                        alt="profile picture"
+                        class="w-[100px] rounded-2xl mb-3"
+                    />
+                    <h5 class="font-semibold text-sm mb-1">Rodney Cotton</h5>
+                    <h6 class="text-primary text-[10px]">Helsinki, Finland</h6>
+                </div>
+                <!-- User stats -->
+                <div class="flex justify-around mt-3">
+                    <div class="stat-box mr-3">
+                        <h5>100</h5>
+                        <h6 class="text-secondary">Posts</h6>
+                    </div>
+                    <div class="stat-box mr-3">
+                        <h5>2,242</h5>
+                        <h6 class="text-secondary">Followers</h6>
+                    </div>
+                    <div class="stat-box">
+                        <h5>1,432</h5>
+                        <h6 class="text-secondary">Following</h6>
+                    </div>
+                </div>
+            </section>
+            <!-- End of user information -->
+
+            <!-- Gallery section -->
+            <section class="mt-10 mb-11">
+                <img
+                    src="/public/img/photo1.png"
+                    alt="interior"
+                    class="cursor-pointer"
+                />
+                <img
+                    src="/public/img/photo2.png"
+                    alt="interior"
+                    class="cursor-pointer"
+                />
+                <img
+                    src="/public/img/photo3.png"
+                    alt="bath tub"
+                    class="cursor-pointer"
+                />
+                <img
+                    src="/public/img/photo4.png"
+                    alt="lamp"
+                    class="cursor-pointer"
+                />
+                <img
+                    src="/public/img/photo5.png"
+                    alt="plant"
+                    class="cursor-pointer"
+                />
+                <img
+                    src="/public/img/photo6.png"
+                    alt="interior"
+                    class="cursor-pointer"
+                />
+            </section>
+            <!-- End of gallery section -->
+
+            <!-- Footer -->
+            <footer class="mb-6 text-footer text-sm">
+                <p class="text-center font-medium">
+                    created by
+                    <a href="https://github.com/islandskan" class="footer-link"
+                        >islandskan
+                    </a>
+                    - devChallenges.io
+                </p>
+            </footer>
+        </div>
+    </body>
 </html>
