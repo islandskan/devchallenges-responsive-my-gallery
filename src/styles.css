@@ -10,3 +10,21 @@
 .footer-link {
     @apply font-bold transition duration-300 ease-linear hover:text-red-500 active:text-red-500 focus:text-red-500;
 }
+
+.img {
+    @apply rounded-xl cursor-pointer;
+}
+
+@layer utilities {
+    .card-shadow {
+        filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.15));
+        transition: filter 0.3s ease-in-out;
+    }
+
+    .card-shadow:hover,
+    .card-shadow:active,
+    .card-shadow:focus,
+    .card-shadow:focus-within {
+        filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.25));
+    }
+}
