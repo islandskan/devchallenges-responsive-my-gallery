@@ -20,32 +20,44 @@
     </head>
     <body class="bg-white text-black font-montserrat">
         <!-- Body wrapper -->
-        <div class="w-11/12 m-auto">
+        <div class="w-11/12 m-auto md:w-10/12 lg:w-8/12">
             <!-- User information -->
-            <section class="flex flex-col items-center mt-8">
+            <section class="flex flex-col items-center mt-8 lg:mt-10 xl:mt-16">
                 <!-- Profile picture and user name-->
                 <div class="flex flex-col items-center">
                     <img
                         src="/public/img/profilePhoto.png"
                         alt="profile picture"
-                        class="w-[100px] rounded-2xl mb-3"
+                        class="w-[100px] rounded-2xl mb-3 lg:w-[156px] lg:h-[156px] xl:mb-4"
                     />
-                    <h5 class="font-semibold text-sm mb-1">Rodney Cotton</h5>
-                    <h6 class="text-primary text-[10px]">Helsinki, Finland</h6>
+                    <h5 class="font-semibold text-sm mb-1 lg:text-2xl xl:mb-2">
+                        Rodney Cotton
+                    </h5>
+                    <h6 class="text-primary text-[10px] lg:text-sm">
+                        Helsinki, Finland
+                    </h6>
                 </div>
                 <!-- User stats -->
-                <div class="flex justify-around mt-3">
-                    <div class="stat-box mr-3">
-                        <h5>100</h5>
-                        <h6 class="text-secondary">Posts</h6>
+                <div class="flex justify-around mt-3 lg:mt-6">
+                    <div class="stat-box mr-3 lg:stat-box-lg lg:mr-6">
+                        <h5 class="text-lg lg:leading-none lg:mb-[2px]">100</h5>
+                        <h6 class="text-secondary lg:leading-none">Posts</h6>
                     </div>
-                    <div class="stat-box mr-3">
-                        <h5>2,242</h5>
-                        <h6 class="text-secondary">Followers</h6>
+                    <div class="stat-box mr-3 lg:stat-box-lg lg:mr-6">
+                        <h5 class="text-lg lg:leading-none lg:mb-[2px]">
+                            2,242
+                        </h5>
+                        <h6 class="text-secondary lg:leading-none">
+                            Followers
+                        </h6>
                     </div>
-                    <div class="stat-box">
-                        <h5>1,432</h5>
-                        <h6 class="text-secondary">Following</h6>
+                    <div class="stat-box lg:stat-bow-lg">
+                        <h5 class="text-lg lg:leading-none lg:mb-[2px]">
+                            1,432
+                        </h5>
+                        <h6 class="text-secondary lg:leading-none">
+                            Following
+                        </h6>
                     </div>
                 </div>
             </section>
@@ -53,7 +65,7 @@
 
             <!-- Gallery section -->
             <section
-                class="mt-10 mb-11 grid gap-3 grid-cols-gallery grid-rows-gallery"
+                class="mt-10 mb-11 grid gap-3 grid-cols-gallery grid-rows-gallery lg:gap-5 xl:gap-8 xl:mb-32"
             >
                 <img
                     src="/public/img/photo1.png"
