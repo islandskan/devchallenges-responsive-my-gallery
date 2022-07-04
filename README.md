@@ -11,10 +11,10 @@
     <!-- <a href="https://{your-demo-link.your-domain}">
       Demo
     </a>
-    <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <span> | </span> -->
+    <a href="https://github.com/islandskan/devchallenges-responsive-my-gallery">
       Solution
-    </a> -->
+    </a>
     <span> | </span>
     <a href="https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I">
       Challenge
