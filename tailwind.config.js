@@ -13,6 +13,12 @@ module.exports = {
                 secondary: '#BDBDBD',
                 footer: '#B9BDCF',
             },
+            gridTemplateColumns: {
+                gallery: 'repeat(3, auto)',
+            },
+            gridTemplateRows: {
+                gallery: 'repeat(3, auto)',
+            },
         },
     },
     plugins: [],
