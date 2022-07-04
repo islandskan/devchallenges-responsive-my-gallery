@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.stat-box {
+    @apply w-[78px] h-[52px] font-semibold text-xs rounded-xl bg-stat px-4 py-3 flex flex-col items-center justify-center;
+}
+
+.footer-link {
+    @apply font-bold transition duration-300 ease-linear hover:text-red-500 active:text-red-500 focus:text-red-500;
+}
