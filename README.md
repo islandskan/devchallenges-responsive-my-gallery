@@ -36,8 +36,8 @@
 
 ## Overview
 
-![screenshot](gallery-desk.png)
-![screenshot](gallery-mobile.png)
+![screenshot](mobile-preview.png)
+![screenshot](desktop-preview.png)
 
 ### Built With
 
